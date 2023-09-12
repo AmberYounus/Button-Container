@@ -8,7 +8,7 @@ let btn7 = document.getElementById("btn7");
 let btn8 = document.getElementById("btn8");
 let btn9 = document.getElementById("btn9");
 
-function clockwiserotation() {
+function clockwiseRotation() {
   [
     btn1.innerHTML,
     btn2.innerHTML,
@@ -29,5 +29,8 @@ function clockwiserotation() {
     btn6.innerHTML,
   ];
 }
-btn5.addEventListener("click", clockwiserotation);
+btn5.addEventListener("click", clockwiseRotation);
+
+
+
 
